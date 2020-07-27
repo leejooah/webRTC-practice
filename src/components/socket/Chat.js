@@ -13,7 +13,7 @@ const Chat = () => {
         })
         setMessage(' ')
     }
-    socket.on('RECEIVE_MESSAGE', function(data){
+    socket.on('RECEIVE_MESSAGE', (data)=>{
         addMessage(data);
     });
     const addMessage = data => {

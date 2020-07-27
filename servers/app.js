@@ -9,7 +9,7 @@ server = app.listen(3001, ()=>{
 io = socket(server)
 io.on('connection', (socket)=>{
     console.log(`아이디 : ${socket.id}`)
-    socket.on('SEND_MESSAGE', function (data) {
+    socket.on('SEND_MESSAGE',(data)=>{
         io.emit('RECEIVE_MESSAGE', data)
     })
 })
