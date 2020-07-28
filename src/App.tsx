@@ -1,8 +1,9 @@
 import React from 'react'
 import './App.css';
-import Rtc from "./components/rtc/rtc";
+import SocketRoom from "./components/socket/SocketRoom";
+import Chat from "./components/socket/Chat";
 const App = () => {
-return <div><Rtc/></div>
+return <div><SocketRoom/></div>
 }
 
 export default App;

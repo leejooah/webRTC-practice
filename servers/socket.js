@@ -1,3 +1,4 @@
+/*
 module.exports = (io) => {
     io.on('connection', (socket) =>{
         console.log('Socket initiated!')
@@ -6,4 +7,4 @@ module.exports = (io) => {
             io.emit('newScoreToClient', data)
         })
     })
-}
+}*/
