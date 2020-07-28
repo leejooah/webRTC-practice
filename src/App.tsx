@@ -1,9 +1,10 @@
 import React from 'react'
 import './App.css';
-import SocketRoom from "./components/socket/SocketRoom";
+import Streaming from "./streamings/streaming";
 import Chat from "./components/socket/Chat";
+
 const App = () => {
-return <div><SocketRoom/></div>
+return <div><Streaming/></div>
 }
 
 export default App;
